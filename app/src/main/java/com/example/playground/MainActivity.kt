@@ -121,6 +121,7 @@ fun WithTransformFun(viewModel: MainActivityViewModel) {
 fun PreviewWithTransform() {
 
     PlaygroundTheme() {
+        // this should be replaced
         val viewModel = ViewModelProvider(this).get(MainActivityViewModel::class.java)
         WithTransformFun(viewModel = viewModel)
     }
